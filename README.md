@@ -14,26 +14,14 @@ Install node from - https://nodejs.org/en/
 
 Create a database name `events` and copy/import `events.sql`. This will create all required tables in your database. Since this prohect uses MySQL as RDBMS, you will have to rely on XAMPP or similar platform and make sure mysql service is running
 
-Open the command line tool and navigate to HTDOCS folder if you are using XAMPP or other local server
-
-```
-prompt> cd xampp/htdocs return/enter
-```
-
 Install git if you have not installed on your computer - https://git-scm.com/
+Open the command line tool and navigate to HTDOCS folder if you are using XAMPP or other local server.
 
-Once you install the git - on command line check the git version by typing git --version. If you get some sort of number it means you have installed git on your computer.
-
-```
-prompt xampp/htdocs> git --version return/enter
-```
-
-Then, clone the git repo - git clone https://github.com/DharmeshPa/nodejs-crud.git - This is will copy all files and foldsers to your root directory. You will see nodejs-crud directory in your root directory.
+Then, clone the git repo - git clone https://github.com/Tanzimul-Hasib/NodeJS-event-management-CRUD-.git - This is will copy all files and foldsers to your root directory. You will see nodejs-crud directory in your root directory. Or you can download the project or copy it in HTDOCKS directory. 
 
 ```
-prompt xampp/htdocs> git clone https://github.com/DharmeshPa/nodejs-crud.git return/enter
+prompt xampp/htdocs> git clone Open the command line tool and navigate to HTDOCS folder if you are using XAMPP or other local server return/enter
 ```
-
 Then navigate to nodejs-crud directory - cd nodejs-crud and then type node server.js. This will give you message that says server running at localhost:1000
 
 ```
@@ -59,8 +47,7 @@ To change/update any messages or text, look for a en-lang.js file located in set
 
 # Author
 
-Dharmesh Patel
-
-pateld404@gmail.com
+Tanzimul Hasib  
+tanzimul.hasib@gmail.com@gmail.com
 
 Enjoy the code :-)
